@@ -2,9 +2,12 @@
 <html>
     <head>
         <title>Laravel</title>
-
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
+        <script type="text/javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+        <script type="text/javascript" href="url{{js/script.js}}"></script>
         <style>
             html, body {
                 height: 100%;
@@ -37,9 +40,20 @@
     </head>
     <body>
         <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
+            
+                <div class="row">
+                    <div class="col-md-6">
+                        <select class="form-control">
+                            <option>Estados</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <select class="form-control">
+                            <option>Ciudades</option>
+                        </select>
+                    </div>
+                </div>
+            
         </div>
     </body>
 </html>
