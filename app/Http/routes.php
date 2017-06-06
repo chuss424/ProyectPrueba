@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('ciudad','CiudadController@index');
+Route::get('ciudad/{id}','CiudadController@buscar');
